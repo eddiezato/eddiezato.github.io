@@ -12,5 +12,5 @@
     'use strict';
 
     var target = document.getElementById('big_photo');
-    window.location.replace(target.src);
+    if (target != null) window.location.replace(target.src);
 })();
