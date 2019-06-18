@@ -3,18 +3,47 @@
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 		<title>eddie.zato</title>
-		<link href="https://fonts.googleapis.com/css?family=Philosopher" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
 		<style type="text/css">
-			p {
-				font-family: 'Philosopher', sans-serif;
-				font-size: 150%;
-				text-shadow: 4px 4px 4px #aaa;
-			}
-		</style> 
+            a.button {
+                width: 240px;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                display: inline-block;
+                font-family: 'Ubuntu', sans-serif;
+                
+                color: #444444;
+                text-decoration: none;
+                user-select: none;
+                padding: 4px 12px;
+                outline: none;
+                border: 1px solid rgba(0,0,0,.1);
+                border-radius: 2px;
+                background: #f5f5f5 linear-gradient(#f4f4f4, #f1f1f1);
+                transition: all .218s ease 0s;
+            }
+            a.button:hover {
+                color: f181818;
+                border: 1px solid #c6c6c6;
+                background: #f7f7f7 linear-gradient(#f7f7f7, #f1f1f1);
+                box-shadow: 0 1px 2px rgba(0,0,0,.1);
+            }
+            a.button:active {
+                color: #333333;
+                border: 1px solid #cccccc;
+                background: #eeeeee linear-gradient(#eeeeee, #e0e0e0);
+                box-shadow: 0 1px 2px rgba(0,0,0,.1) inset;
+            }
+        </style>
 	</head>
 	<body>
-		<div style="width:960px; margin:0 auto;">
-			<p>“We are not stuff that abides, but patterns that perpetuate themselves.” - Norbert Wiener</p>      
+		<div style="width:250px; height:800px; margin:0 auto;" align="center">
+            <div style="position: relative; top: 50%; transform: translateY(-50%);">
+                <img width="266" src="spongebob.png"/>
+                <a class="button" href="/tomorrow/">'Tomorrow' color style</a>
+                <a class="button" href="/imgscripts/">Scripts for getting source image</a>
+                <a class="button" href="/steam/">Home page for Steam</a>
+            </div>
 		</div>
 	</body>
-</html>
+</html>    
