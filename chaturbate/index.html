@@ -1,0 +1,18 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+	<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	  <title>Chaturbate</title>		
+	</head>
+	<body>
+	  <script type="text/javascript">
+		  ["elaanna","sellapink","emmasweetx","e_v_a_","chloetaya","annais_","misshowl","wearehottest","miiiawallace","meryfoxxx","melissaallens"].forEach(function(model) {
+		      fetch('https://cors-anywhere.herokuapp.com/https://chaturbate.com/api/chatvideocontext/' + model + '/', { method: 'GET', headers: { 'Content-Type':'application/json', 'Accept':'application/hal+json' }})
+		    	  .then(function(res) { return res.json(); })
+				   	  .then(function(out) {
+				   	    document.write ('<a style="margin:3;" href="' + out.hls_source + '"><img width="150" alt=' + model + ' src="https://roomimg.stream.highwebmedia.com/ri/' + model + '.jpg" /></a>');
+			    	  });
+			    })
+		</script>
+	</body>
+</html>
