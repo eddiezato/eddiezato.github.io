@@ -1,33 +1,65 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<!DOCTYPE html>
 <html>
-	<head>
-		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-		<title>bookmarks</title>
-		<style type="text/css">
-			<link href="https://fonts.googleapis.com/css?family=Philosopher" rel="stylesheet">
-			.thumb p {
-				font-family: 'Philosopher', sans-serif;
-				font-size: 150%;
-				color: #f0c674;
-			}
-			.thumb img {
-				border: 1px solid #594a5d;
-				margin: 3px;
-				float: left;
-			}
-			.thumb:hover img {
-				border: 1px solid #b294bb;
-				background: rgba(0,0,0,0.5);
-			}
-		</style> 
-	</head>
-	<body bgcolor="#1d1f21">
-		<div style="width:480px; height:800px; margin:0 auto;" align="center">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            @import url('https://fonts.googleapis.com/css?family=Ubuntu:700&display=swap');
+            .btn {
+                border: none;
+                background-color: inherit;
+                padding: 14px 28px;
+                font-size: 32px;
+                cursor: pointer;
+                display: inline-block;
+                font-family: 'Ubuntu', sans-serif;
+            }
+
+            .google {
+                color: #fafafa;
+            }
+            .google:hover {
+                background-color: #fafafa;
+                color: black;
+            }
+            .youtube {
+                color: #f44336;
+            }
+            .youtube:hover {
+                background-color: #f44336;
+                color: white;
+            }
+            .translate {
+                color: #1e88e5;
+            }
+            .translate:hover {
+                background-color: #1e88e5;
+                color: white;
+            }
+            .conanmap {
+                color: #8bc34a;
+            }
+            .conanmap:hover {
+                background-color: #8bc34a;
+                color: white;
+            }
+            .conanwiki {
+                color: #fb8c00;
+            }
+            .conanwiki:hover {
+                background-color: #fb8c00;
+                color: white;
+            }
+        </style>
+    </head>
+    <body style="background-color:#1d1f21;">
+        <div style="height:800px;max-width:600px;margin:auto;" align="center">
 			<div style="position: relative; top:50%; transform:translateY(-50%);">
-				<a href="https://www.google.com"><div class="thumb"><img src="steamg.png" width="152" alt=""></div></a>
-				<a href="https://www.youtube.com"><div class="thumb"><img src="steamy.png" width="152" alt=""></div></a>
-				<a href="https://translate.google.com/"><div class="thumb"><img src="steamgt.png" width="152" alt=""></div></a>
-			</div>
-		</div>
-	</body>
+                <a href="https://google.com"><button class="btn google">Google</button></a>
+                <a href="https://youtube.com"><button class="btn youtube">YouTube</button></a>
+                <a href="https://translate.google.com"><button class="btn translate">Translate</button></a>
+                <a href="https://conanexilesmap.com"><button class="btn conanmap">Conan-Map</button></a>
+                <a href="https://conanexiles.gamepedia.com"><button class="btn conanwiki">Conan-Wiki</button></a>
+            </div>
+        </div>
+    </body>
 </html>
