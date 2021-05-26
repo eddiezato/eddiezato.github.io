@@ -9,13 +9,22 @@
         picture:hover {
             filter: grayscale(0%);
         }
+        div.container {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            margin-right: -50%;
+            transform: translate(-50%, -50%)
+        }
     </style>
 </head>
 <body style="background-color: #35363A;">
-    <p style="text-align: center;"><a href="bin">
-        <picture>
-            <source srcset="zato1.jxl" type="image/jxl"><img src="zato1.webp" alt="JXL">
-        </picture>
-    </a></p>
+    <div class=container>
+        <a href="bin">
+            <picture>
+                <source srcset="zato1.jxl" type="image/jxl"><img src="zato1.webp" alt="JXL">
+            </picture>
+        </a>
+    </div>
 </body>
 </html>
